@@ -9,7 +9,7 @@ echo "🚀 Iniciando despliegue de TrainApp..."
 
 # Configuración
 APP_NAME="trainapp"
-GIT_REPO="https://github.com/tu-usuario/trainapp-suite.git"  # Cambiar por tu repo
+GIT_REPO="https://github.com/Carlossangar/trainapp-suite.git"
 DEPLOY_DIR="/opt/trainapp"
 BACKUP_DIR="/opt/trainapp-backup"
 SERVICE_NAME="trainapp"
