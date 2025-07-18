@@ -29,6 +29,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: process.env.NODE_ENV === 'production' ? 'http://135.125.238.161:3001/' : '/',
   },
   plugins: [
     new HtmlWebpackPlugin({
